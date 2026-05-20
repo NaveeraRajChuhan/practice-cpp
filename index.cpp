@@ -71,11 +71,39 @@ main()
 
 }
 
+//-------------------------------------------------
+//------------LECTURE4 ------------------------------------
+//-------------------------------------------------
 
 
 
+//problem 1: Write a program to calculate the age of students.
 
-
+main()
+{
+    int age1 ,age2 , age3 , age4 , age5, age6 , age7 , age8 , age9 , age10 ; // variable declaration
+    int avg;
+    cout<<"Enter the age of student 1: ";
+    cin>>age1;            // cin user say leta hay
+    cout<<"Enter the age of student 2: ";
+    cin>>age2;      
+    cout<<"Enter the age of student 3: ";
+    cin>>age3;          
+    cout<<"Enter the age of student 4: ";
+    cin>>age4;
+    cout<<"Enter the age of student 5: ";
+    cin>>age5;
+    cout<<"Enter the age of student 6: ";
+    cin>>age6;
+    cout<<"Enter the age of student 7: ";
+    cin>>age7;
+    cout<<"Enter the age of student 8: ";
+    cin>>age8;
+    cout<<"Enter the age of student 9: ";
+    cin>>age9;
+    cout<<"Enter the age of student 10: ";
+    cin>>age10;
+}
 
 
 
