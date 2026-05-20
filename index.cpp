@@ -82,28 +82,70 @@ main()
 main()
 {
     int age1 ,age2 , age3 , age4 , age5, age6 , age7 , age8 , age9 , age10 ; // variable declaration
-    int avg;
+    float avg;
     cout<<"Enter the age of student 1: ";
     cin>>age1;            // cin user say leta hay
-    cout<<"Enter the age of student 2: ";
+    cout<<"\n Enter the age of student 2: ";
     cin>>age2;      
-    cout<<"Enter the age of student 3: ";
+    cout<<"\n Enter the age of student 3: ";
     cin>>age3;          
-    cout<<"Enter the age of student 4: ";
+    cout<<"\n Enter the age of student 4: ";
     cin>>age4;
-    cout<<"Enter the age of student 5: ";
+    cout<<"\n Enter the age of student 5: ";
     cin>>age5;
-    cout<<"Enter the age of student 6: ";
+    cout<<"\n Enter the age of student 6: ";
     cin>>age6;
-    cout<<"Enter the age of student 7: ";
+    cout<<"\n Enter the age of student 7: ";
     cin>>age7;
-    cout<<"Enter the age of student 8: ";
+    cout<<"\n Enter the age of student 8: ";
     cin>>age8;
-    cout<<"Enter the age of student 9: ";
+    cout<<"\n Enter the age of student 9: ";
     cin>>age9;
-    cout<<"Enter the age of student 10: ";
+    cout<<"\n Enter the age of student 10: ";
     cin>>age10;
+    avg = (age1 + age2 + age3 + age4 + age5 + age6 + age7 + age8 + age9 + age10) / 10;
+cout<<"\n\n The average age of students is: "<<avg; // output statement
+getch(); // use to hold the output screen
+
+    return 0;
 }
+
+
+// problem 2: Write a program to inverse numbers.
+main()
+{
+    7845 % 10; // output: 5
+    7845 / 10; // output: 784
+
+    int a;
+    cout<<"\n Enter 4 digit number: ";
+    cin>>a;
+    cout<<"\n 4 digit is ; " ;
+    cout<<a%10 <<","; // output: 5
+    a = a / 10; // output: 784
+    cout<<a%10 <<","; // output: 4
+    a = a / 10; // output: 78
+    cout<<a%10 <<","; // output: 8
+    a = a / 10; // output: 7
+    cout<<a%10; // output: 7
+    getch(); // use to hold the output screen
+    return 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
