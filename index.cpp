@@ -54,7 +54,21 @@ main()
 
 main()
 {
+  // +, -, *, /, % are arithmetic operators
+  //  ()       1st           precedence of operators
+  //  *  /  %   2nd        precedence of operators
+  //  +  -       3rd           precedence of operators
+
+
     
+    int a =10;
+    int b =20;
+    cout<<a+b<<endl; //output: 30
+    cout<<a-b <<endl; //output: -10     // endl is use to skip a line
+    cout<<a*b <<endl; //output: 200
+
+    return 0;
+
 }
 
 
