@@ -1,3 +1,3 @@
-#include <iostream>
-#include  <conio.h>
-using namespace std;
+#include <iostream>     //------header file
+#include  <conio.h>     //------header file
+using namespace std;    //-----library
