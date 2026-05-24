@@ -201,6 +201,71 @@ main()
 
 
 
+//goto statement
+
+
+main()
+{
+   p:     //this is a label
+       cout<<"hi"; 
+      goto p;      // p will repeat the statement hi infinitely
+      getch(); 
+      return 0;
+}
+
+
+
+
+
+//-------------------------------------------------
+//------------LECTURE9 ------------------------------------
+//-------------------------------------------------
+
+//functions
+
+//there are two types of functions in c++
+//functions which return a value
+//functions which do not return a value
+
+
+
+
+//structure of a function 
+return_type function_name (argument-list)
+{
+   //code
+}
+
+
+
+// function declaration:-
+//        bus declare kar k chordo
+
+int add(int a); // function declaration
+
+
+
+
+
+// function definition:-
+//           pura func define ho
+int add(int a) 
+{
+    return a + 10; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
