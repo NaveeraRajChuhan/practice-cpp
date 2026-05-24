@@ -336,3 +336,66 @@ for (int i=0; i<5; i++)
 // copyiing array:-
 b[0] = a[0]; // copying first element of array a to array b
 // a k ander ki value b k ander copy ho gayi
+
+
+
+
+
+//linear search:-
+// linear search is a simple search algorithm that checks each element of the array until it finds the
+// ander value deakhta hay k hay ya nh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
