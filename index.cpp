@@ -138,6 +138,61 @@ main()
 
 
 
+//-------------------------------------------------
+//------------LECTURE5 ------------------------------------
+//-------------------------------------------------
+
+
+
+//arithmetic operators             + , - , * , / , % ,++ , -- 
+//assignment operators               = , += , -= , *= , /= , %=
+//comparison operators                == , != , > , < , >= , <=
+//logical operators                   && , || , !
+
+
+
+
+//-------------------------------------------------
+//------------LECTURE8 ------------------------------------
+//-------------------------------------------------
+
+
+//switch  statement
+
+int number=5;
+switch (number)
+{
+    case 1:
+        cout<<"Number is 1";
+        break;
+    case 2:
+        cout<<"Number is 2";
+        break;
+    case 3:
+        cout<<"Number is 3";
+        break;
+    case 4:
+        cout<<"Number is 4";
+        break;
+    case 5:
+        cout<<"Number is 5";
+        break;
+    
+    default:
+        cout<<"invalid number";
+      
+}
+getch();
+
+
+
+
+
+
+
+
+
+
 
 
 
