@@ -273,6 +273,24 @@ int add(int a)
 //------------LECTURE10 ------------------------------------
 //-------------------------------------------------
 
+//header files:-
+// header files are the files which contain the pre-defined functions and variables which we can use in our program.
+// files k ander coding store ho
+
+
+
+#define PI 3.14       // ab puray code mein PI ki value 3.14 hogi
+
+
+
+
+int x = 10; // global variable
+main()
+{
+    int 10; // local variable
+  getch(); 
+    return 0;
+}
 
 
 
@@ -286,3 +304,35 @@ int add(int a)
 
 
 
+//-------------------------------------------------
+//------------LECTURE11 ------------------------------------
+//-------------------------------------------------
+
+
+
+//array:-
+data_type array_name [size]; // structure of array
+
+int arr[5]; // this is an array of 5 integers
+
+
+
+
+a[0] = 10; // assigning value to first element of array
+a[1] = 20; // assigning value to second element of array
+
+
+
+
+//initialization of array:-
+string arr[5] = {"hi", "hello", "welcome", "to", "c++"}; // 
+for (int i=0; i<5; i++)
+{
+    cout<<arr[i]<<endl; // output: hi hello welcome to c++
+}
+
+
+
+// copyiing array:-
+b[0] = a[0]; // copying first element of array a to array b
+// a k ander ki value b k ander copy ho gayi
