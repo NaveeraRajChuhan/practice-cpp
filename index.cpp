@@ -157,7 +157,7 @@ main()
 //-------------------------------------------------
 
 
-//switch  statement
+//switch  statement , break statement 
 
 int number=5;
 switch (number)
@@ -187,7 +187,17 @@ getch();
 
 
 
+// continue statement
 
+main()
+{
+    for (int i=1; i<=5; i++)
+    {
+       cout<<"hi"; 
+       continue; // output: hi hi hi hi hi
+       cout<<"hello"; // this statement will not execute because of continue statement
+    }
+}
 
 
 
