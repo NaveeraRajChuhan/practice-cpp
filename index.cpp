@@ -254,16 +254,8 @@ int add(int a)
     return a + 10; 
 }
 
-
-
-
 // function call:-
 //         bus call kar k use kar lo function ko 
-
-
-
-
-
 
 
 
@@ -291,13 +283,6 @@ main()
   getch(); 
     return 0;
 }
-
-
-
-
-
-
-
 
 
 
@@ -339,33 +324,44 @@ b[0] = a[0]; // copying first element of array a to array b
 
 
 
-
-
 //linear search:-
 // linear search is a simple search algorithm that checks each element of the array until it finds the
 // ander value deakhta hay k hay ya nh
 
 
 
+//const variable:-
+// const variable is a variable whose value cannot be changed after it is initialized.
 
 
 
 
 
 
+//-------------------------------------------------
+//------------LECTURE12 ------------------------------------
+//-------------------------------------------------
+
+
+// character array:-
+// ismai hum character store kar sakty hain.
+//  character array ko string bhi kehty hain.
+//  character array ko double quotes mein likha jata hai.
+
+char arr[5] = {'h', 'e', 'l', 'l', 'o'}; // this is a character array
+cout<<arr; // output: hello
+cout<<arr[0]; // output: h
 
 
 
 
+//arrays comparision:-
+// arrays ko compare karne ke liye hum loop ka use karte hain.
 
 
 
-
-
-
-
-
-
+//sorting:-
+// sorting is the process of arranging the elements of an array in a specific order.
 
 
 
