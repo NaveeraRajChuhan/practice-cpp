@@ -366,6 +366,24 @@ cout<<arr[0]; // output: h
 
 
 
+//searching:-
+// it has two types linear search and binary search
+
+//binary search:-
+// binary search is a search algorithm that finds the position of a target value within a sorted array.
+
+//functions and arrays:-
+// we can pass array to a function as an argument.
+
+
+//multidimensional array:-
+// define rows and columns
+// 2D array
+int arr[2][3] =   //2= rows and 3= columns
+{  {1, 2, 3}, {4, 5, 6}};
+
+
+// we can also make 3D array and 4D array and so on. it depends on our requirement.
 
 
 
